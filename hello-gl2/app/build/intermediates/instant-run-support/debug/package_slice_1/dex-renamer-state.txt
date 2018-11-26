@@ -1,0 +1,4 @@
+#Fri Nov 23 16:30:43 CST 2018
+base.0=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
+renamed.0=classes.dex
+file.0=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex
