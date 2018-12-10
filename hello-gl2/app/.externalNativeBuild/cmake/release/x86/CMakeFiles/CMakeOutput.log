@@ -1,19 +1,19 @@
 The target system is: Android - 14 - i686
 The host system is: Linux - 4.15.0-39-generic - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_65db2"
-[1/2] Building C object CMakeFiles/cmTC_65db2.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_65db2
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_e45b0"
+[1/2] Building C object CMakeFiles/cmTC_e45b0.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_e45b0
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4d567"
-[1/2] Building C object CMakeFiles/cmTC_4d567.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_4d567
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b8ff9"
+[1/2] Building C object CMakeFiles/cmTC_b8ff9.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_b8ff9
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: i686-none-linux-android
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: /home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchai
 Selected GCC installation: /home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_4d567 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4d567.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o
+ "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b8ff9 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b8ff9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4d567"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_4d567.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_4d567]
+  ignore line: [Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b8ff9"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_b8ff9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_b8ff9]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: i686-none-linux-android]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_4d567 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4d567.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b8ff9 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b8ff9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o]
     arg [/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -51,7 +51,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4d567] ==> ignore
+    arg [cmTC_b8ff9] ==> ignore
     arg [/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> dir [/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
     arg [-L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -68,7 +68,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_4d567.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b8ff9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -89,11 +89,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_23b08"
-[1/2] Building C object CMakeFiles/cmTC_23b08.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_23b08
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_01993"
+[1/2] Building C object CMakeFiles/cmTC_01993.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_01993
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -103,11 +103,11 @@ Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_1d13d"
-[1/2] Building C object CMakeFiles/cmTC_1d13d.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_1d13d
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_fd92f"
+[1/2] Building C object CMakeFiles/cmTC_fd92f.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_fd92f
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -117,11 +117,11 @@ Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_73939"
-[1/2] Building C object CMakeFiles/cmTC_73939.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_73939
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_8d237"
+[1/2] Building C object CMakeFiles/cmTC_8d237.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_8d237
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -129,19 +129,19 @@ Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_32421"
-[1/2] Building CXX object CMakeFiles/cmTC_32421.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_32421
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_31985"
+[1/2] Building CXX object CMakeFiles/cmTC_31985.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_31985
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c3b22"
-[1/2] Building CXX object CMakeFiles/cmTC_c3b22.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_c3b22
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_9dea8"
+[1/2] Building CXX object CMakeFiles/cmTC_9dea8.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_9dea8
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: i686-none-linux-android
 Thread model: posix
@@ -150,16 +150,16 @@ Found candidate GCC installation: /home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchai
 Selected GCC installation: /home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_c3b22 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c3b22.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o
+ "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_9dea8 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_9dea8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c3b22"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_c3b22.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_c3b22]
+  ignore line: [Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_9dea8"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_9dea8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_9dea8]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: i686-none-linux-android]
   ignore line: [Thread model: posix]
@@ -170,7 +170,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_c3b22 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c3b22.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o]
+  link line: [ "/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86 --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_9dea8 /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386 -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_9dea8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtend_android.o]
     arg [/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -179,7 +179,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c3b22] ==> ignore
+    arg [cmTC_9dea8] ==> ignore
     arg [/home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-14/arch-x86/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386] ==> dir [/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/i386]
     arg [-L/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -196,7 +196,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_c3b22.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_9dea8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -223,11 +223,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_5ac82"
-[1/2] Building CXX object CMakeFiles/cmTC_5ac82.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_5ac82
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_879fc"
+[1/2] Building CXX object CMakeFiles/cmTC_879fc.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_879fc
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -290,11 +290,11 @@ Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_47bae"
-[1/2] Building CXX object CMakeFiles/cmTC_47bae.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_47bae
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_eee78"
+[1/2] Building CXX object CMakeFiles/cmTC_eee78.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_eee78
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -357,11 +357,11 @@ Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
+Change Dir: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a9944"
-[1/2] Building CXX object CMakeFiles/cmTC_a9944.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a9944
+Run Build Command:"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_47f10"
+[1/2] Building CXX object CMakeFiles/cmTC_47f10.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_47f10
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

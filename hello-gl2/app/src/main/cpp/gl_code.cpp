@@ -34,12 +34,15 @@
 #include "BlurOnlyRender.h"
 #include "GaussianBlurRender.h"
 #include "FastGaussianBlurRender.h"
+#include "RoundBlurRender.h"
+#include "RoundBlurRender2.h"
 
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 #include "glm/gtc/type_ptr.hpp"
 #include "TwoStepGaussianBlurRender.h"
 #include "DualFilterRender.h"
+#include "CircleRender.h"
 
 #define  LOG_TAG    "libgl2jni"
 #define  LOGI(...)  __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
@@ -89,6 +92,9 @@ GaussianBlurRender gGaussianBlurRender;
 FastGaussianBlurRender gFastGaussianBlurRender;
 TwoStepGaussianBlurRender gTwoStepGaussianBlurRender;
 DualFilterRender gDualFilterRender;
+RoundBlurRender gRoundBlurRender;
+RoundBlurRender2 gRoundBlurRender2;
+CircleRender mCircleRender;
 void setTexture(int texId) {
     mTexId = texId;
 }
@@ -124,7 +130,8 @@ bool setupGraphics(int w, int h) {
 //    gGaussianBlurRender.setFrame(w, h, mTexId);
 //    gFastGaussianBlurRender.setFrame(w, h, mTexId);
 //    gTwoStepGaussianBlurRender.setFrame(w, h, mTexId);
-    gDualFilterRender.setFrame(w, h, mTexId);
+//    gDualFilterRender.setFrame(w, h, mTexId);
+    mCircleRender.setFrame(w, h, mTexId);
     return true;
 }
 
@@ -138,7 +145,8 @@ void renderFrame() {
 //    gGaussianBlurRender.drawFrame();
 //    gFastGaussianBlurRender.drawFrame();
 //    gTwoStepGaussianBlurRender.drawFrame();
-    gDualFilterRender.drawFrame();
+//    gDualFilterRender.drawFrame();
+    mCircleRender.drawFrame();
 }
 
 

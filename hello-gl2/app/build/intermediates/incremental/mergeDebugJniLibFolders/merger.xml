@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/debug/jniLibs"/></dataSet></merger>

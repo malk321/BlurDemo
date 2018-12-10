@@ -1,4 +1,4 @@
-# Install script for directory: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm
+# Install script for directory: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

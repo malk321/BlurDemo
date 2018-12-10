@@ -1,7 +1,7 @@
-#Mon Nov 26 19:31:04 CST 2018
-base.0=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_08da9052095fc119c7b4c407a9ae539ed95f63b1
+#Wed Nov 28 17:55:53 CST 2018
+base.0=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_af81e3fcdf57d46dc2e4e8acf0e098599ab47f96
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2e66a78919516107eaedea77ddda9c2cc7ce71e6/classes.dex
-base.1=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2e66a78919516107eaedea77ddda9c2cc7ce71e6
-file.0=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_08da9052095fc119c7b4c407a9ae539ed95f63b1/classes.dex
+file.1=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_06dd8e46539eb6d90272c6d9b09e9ad7ec3a4a27/classes.dex
+base.1=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_06dd8e46539eb6d90272c6d9b09e9ad7ec3a4a27
+file.0=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_af81e3fcdf57d46dc2e4e8acf0e098599ab47f96/classes.dex

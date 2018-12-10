@@ -12,4 +12,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/release/arm64-v8a
+-- Build files have been written to: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/release/arm64-v8a

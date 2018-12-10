@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/x86_64 && /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/x86_64 && /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -43,7 +43,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/x86_64 && /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake -H/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp -B/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/x86_64
+  COMMAND = cd /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/x86_64 && /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake -H/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp -B/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/x86_64
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -56,108 +56,132 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Order-only phony target for gl2jni
 
 build cmake_order_depends_target_gl2jni: phony || glm/libglm.a
-build CMakeFiles/gl2jni.dir/gl_code.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/gl_code.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/gl_code.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/gl_code.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/gl_code.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/gl_code.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/gl_code.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/GLES20Utils.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/GLES20Utils.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/GLES20Utils.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/GLES20Utils.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/GLES20Utils.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/GLES20Utils.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/GLES20Utils.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/RenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/RenderEngine.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/RenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RenderEngine.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/RenderEngine.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/RenderEngine.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RenderEngine.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/DrawArrayRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DrawArrayRenderEngine.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/DrawArrayRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DrawArrayRenderEngine.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/DrawArrayRenderEngine.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DrawArrayRenderEngine.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DrawArrayRenderEngine.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/DataArrayRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DataArrayRenderEngine.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/DataArrayRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DataArrayRenderEngine.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/DataArrayRenderEngine.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DataArrayRenderEngine.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DataArrayRenderEngine.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/VBORenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/VBORenderEngine.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/VBORenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/VBORenderEngine.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/VBORenderEngine.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/VBORenderEngine.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/VBORenderEngine.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/CubeRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/CubeRenderEngine.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/CubeRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CubeRenderEngine.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/CubeRenderEngine.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/CubeRenderEngine.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CubeRenderEngine.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/BlurOnlyRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/BlurOnlyRender.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/BlurOnlyRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/BlurOnlyRender.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/BlurOnlyRender.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/BlurOnlyRender.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/BlurOnlyRender.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/FastGaussianBlurRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/FastGaussianBlurRender.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/FastGaussianBlurRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/FastGaussianBlurRender.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/FastGaussianBlurRender.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/FastGaussianBlurRender.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/FastGaussianBlurRender.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/TwoStepGaussianBlurRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/TwoStepGaussianBlurRender.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/TwoStepGaussianBlurRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/TwoStepGaussianBlurRender.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/TwoStepGaussianBlurRender.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/TwoStepGaussianBlurRender.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/TwoStepGaussianBlurRender.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/DualFilterRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DualFilterRender.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/DualFilterRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DualFilterRender.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/DualFilterRender.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DualFilterRender.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DualFilterRender.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/GaussianBlurRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/GaussianBlurRender.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/GaussianBlurRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/GaussianBlurRender.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/GaussianBlurRender.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/GaussianBlurRender.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/GaussianBlurRender.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
-build CMakeFiles/gl2jni.dir/BlurRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/BlurRenderEngine.cpp || cmake_order_depends_target_gl2jni
+build CMakeFiles/gl2jni.dir/RoundBlurRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RoundBlurRender.cpp || cmake_order_depends_target_gl2jni
+  DEFINES = -Dgl2jni_EXPORTS
+  DEP_FILE = CMakeFiles/gl2jni.dir/RoundBlurRender.cpp.o.d
+  FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RoundBlurRender.cpp
+  OBJECT_DIR = CMakeFiles/gl2jni.dir
+  OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
+build CMakeFiles/gl2jni.dir/RoundBlurRender2.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RoundBlurRender2.cpp || cmake_order_depends_target_gl2jni
+  DEFINES = -Dgl2jni_EXPORTS
+  DEP_FILE = CMakeFiles/gl2jni.dir/RoundBlurRender2.cpp.o.d
+  FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RoundBlurRender2.cpp
+  OBJECT_DIR = CMakeFiles/gl2jni.dir
+  OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
+build CMakeFiles/gl2jni.dir/CircleRender.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CircleRender.cpp || cmake_order_depends_target_gl2jni
+  DEFINES = -Dgl2jni_EXPORTS
+  DEP_FILE = CMakeFiles/gl2jni.dir/CircleRender.cpp.o.d
+  FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CircleRender.cpp
+  OBJECT_DIR = CMakeFiles/gl2jni.dir
+  OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
+build CMakeFiles/gl2jni.dir/BlurRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/BlurRenderEngine.cpp || cmake_order_depends_target_gl2jni
   DEFINES = -Dgl2jni_EXPORTS
   DEP_FILE = CMakeFiles/gl2jni.dir/BlurRenderEngine.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/BlurRenderEngine.cpp
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/BlurRenderEngine.cpp
   OBJECT_DIR = CMakeFiles/gl2jni.dir
   OBJECT_FILE_DIR = CMakeFiles/gl2jni.dir
 
@@ -166,9 +190,9 @@ build CMakeFiles/gl2jni.dir/BlurRenderEngine.cpp.o: CXX_COMPILER__gl2jni /media/
 
 
 #############################################
-# Link the shared library /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
+# Link the shared library /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
 
-build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so: CXX_SHARED_LIBRARY_LINKER__gl2jni CMakeFiles/gl2jni.dir/gl_code.cpp.o CMakeFiles/gl2jni.dir/GLES20Utils.cpp.o CMakeFiles/gl2jni.dir/RenderEngine.cpp.o CMakeFiles/gl2jni.dir/DrawArrayRenderEngine.cpp.o CMakeFiles/gl2jni.dir/DataArrayRenderEngine.cpp.o CMakeFiles/gl2jni.dir/VBORenderEngine.cpp.o CMakeFiles/gl2jni.dir/CubeRenderEngine.cpp.o CMakeFiles/gl2jni.dir/BlurOnlyRender.cpp.o CMakeFiles/gl2jni.dir/FastGaussianBlurRender.cpp.o CMakeFiles/gl2jni.dir/TwoStepGaussianBlurRender.cpp.o CMakeFiles/gl2jni.dir/DualFilterRender.cpp.o CMakeFiles/gl2jni.dir/GaussianBlurRender.cpp.o CMakeFiles/gl2jni.dir/BlurRenderEngine.cpp.o | glm/libglm.a || glm/libglm.a
+build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so: CXX_SHARED_LIBRARY_LINKER__gl2jni CMakeFiles/gl2jni.dir/gl_code.cpp.o CMakeFiles/gl2jni.dir/GLES20Utils.cpp.o CMakeFiles/gl2jni.dir/RenderEngine.cpp.o CMakeFiles/gl2jni.dir/DrawArrayRenderEngine.cpp.o CMakeFiles/gl2jni.dir/DataArrayRenderEngine.cpp.o CMakeFiles/gl2jni.dir/VBORenderEngine.cpp.o CMakeFiles/gl2jni.dir/CubeRenderEngine.cpp.o CMakeFiles/gl2jni.dir/BlurOnlyRender.cpp.o CMakeFiles/gl2jni.dir/FastGaussianBlurRender.cpp.o CMakeFiles/gl2jni.dir/TwoStepGaussianBlurRender.cpp.o CMakeFiles/gl2jni.dir/DualFilterRender.cpp.o CMakeFiles/gl2jni.dir/GaussianBlurRender.cpp.o CMakeFiles/gl2jni.dir/RoundBlurRender.cpp.o CMakeFiles/gl2jni.dir/RoundBlurRender2.cpp.o CMakeFiles/gl2jni.dir/CircleRender.cpp.o CMakeFiles/gl2jni.dir/BlurRenderEngine.cpp.o | glm/libglm.a || glm/libglm.a
   LANGUAGE_COMPILE_FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a --sysroot /home/miaoshoufei/Tool/Sdk/ndk-bundle/platforms/android-21/arch-x86_64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = -landroid -llog -lEGL -lGLESv2 glm/libglm.a -lm "/home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_static.a"
@@ -177,21 +201,21 @@ build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-n
   PRE_LINK = :
   SONAME = libgl2jni.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
+  TARGET_FILE = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
   TARGET_PDB = gl2jni.so.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/CMakeLists.txt
+# /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target glm
 
-build glm/CMakeFiles/glm.dir/detail/glm.cpp.o: CXX_COMPILER__glm /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/detail/glm.cpp
+build glm/CMakeFiles/glm.dir/detail/glm.cpp.o: CXX_COMPILER__glm /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/detail/glm.cpp
   DEP_FILE = glm/CMakeFiles/glm.dir/detail/glm.cpp.o.d
   FLAGS = -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/.. -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/detail/glm.cpp
+  INCLUDES = -I/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/.. -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/detail/glm.cpp
   OBJECT_DIR = glm/CMakeFiles/glm.dir
   OBJECT_FILE_DIR = glm/CMakeFiles/glm.dir/detail
 
@@ -212,9 +236,9 @@ build glm/libglm.a: CXX_STATIC_LIBRARY_LINKER__glm glm/CMakeFiles/glm.dir/detail
 # =============================================================================
 # Target aliases.
 
-build gl2jni: phony /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
+build gl2jni: phony /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
 build glm: phony glm/libglm.a
-build libgl2jni.so: phony /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
+build libgl2jni.so: phony /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so
 build libglm.a: phony glm/libglm.a
 # =============================================================================
 # Folder targets.
@@ -223,7 +247,7 @@ build libglm.a: phony glm/libglm.a
 # =============================================================================
 
 #############################################
-# Folder: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm
+# Folder: /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm
 
 build  glm/all: phony glm
 # =============================================================================
@@ -233,7 +257,7 @@ build  glm/all: phony glm
 #############################################
 # The main all target.
 
-build all: phony /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so glm/libglm.a
+build all: phony /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/x86_64/libgl2jni.so glm/libglm.a
 
 #############################################
 # Make the all target the default.
@@ -243,13 +267,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake /home/miaoshoufei/Tool/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/CMakeLists.txt /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx
+build build.ninja: RERUN_CMAKE | /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake /home/miaoshoufei/Tool/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CMakeLists.txt /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake /home/miaoshoufei/Tool/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/CMakeLists.txt /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx: phony
+build /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake /home/miaoshoufei/Tool/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CMakeLists.txt /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/CMakeLists.txt CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx: phony
 
 #############################################
 # Clean all the built files.

@@ -16,12 +16,14 @@ public final class R {
     public static final class raw {
         public static final int photo=0x7f030000;
         public static final int photo1=0x7f030001;
-        public static final int photo2=0x7f030002;
-        public static final int photo3=0x7f030003;
-        public static final int photo5=0x7f030004;
-        public static final int photo6=0x7f030005;
-        public static final int photo7=0x7f030006;
-        public static final int photo8=0x7f030007;
+        public static final int photo10=0x7f030002;
+        public static final int photo2=0x7f030003;
+        public static final int photo3=0x7f030004;
+        public static final int photo5=0x7f030005;
+        public static final int photo6=0x7f030006;
+        public static final int photo7=0x7f030007;
+        public static final int photo8=0x7f030008;
+        public static final int photo9=0x7f030009;
     }
     public static final class string {
         public static final int gl2jni_activity=0x7f040000;

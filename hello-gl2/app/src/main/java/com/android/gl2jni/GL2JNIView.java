@@ -347,7 +347,7 @@ class GL2JNIView extends GLSurfaceView {
 
     private static int uploadBitmapToTexture(Context context) {
         InputStream is = context.getResources()
-                .openRawResource(R.raw.photo);
+                .openRawResource(R.raw.photo10);
         Bitmap bitmap;
         try {
             bitmap = BitmapFactory.decodeStream(is);

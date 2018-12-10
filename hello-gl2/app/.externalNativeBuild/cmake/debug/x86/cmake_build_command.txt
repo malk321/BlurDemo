@@ -1,11 +1,11 @@
 Executable : /home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake
 arguments : 
--H/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp
--B/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/x86
+-H/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp
+-B/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/x86
 -GAndroid Gradle - Ninja
 -DANDROID_ABI=x86
 -DANDROID_NDK=/home/miaoshoufei/Tool/Sdk/ndk-bundle
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/x86
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/x86
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_MAKE_PROGRAM=/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/ninja
 -DCMAKE_TOOLCHAIN_FILE=/home/miaoshoufei/Tool/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake

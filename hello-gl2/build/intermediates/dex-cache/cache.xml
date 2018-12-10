@@ -12,12 +12,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_af81e3fcdf57d46dc2e4e8acf0e098599ab47f96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
         <dex dex="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_08da9052095fc119c7b4c407a9ae539ed95f63b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53ac677ae3b89887a4029084cf77a44f5e1ae3e1">
+        <dex dex="/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_06dd8e46539eb6d90272c6d9b09e9ad7ec3a4a27/classes.dex" />
     </item>
 
 </items>

@@ -2,12 +2,12 @@
 {
 	"buildFiles" : 
 	[
-		"/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/CMakeLists.txt",
-		"/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/CMakeLists.txt"
+		"/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CMakeLists.txt",
+		"/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/CMakeLists.txt"
 	],
 	"cleanCommands" : 
 	[
-		"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake --build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+		"/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake --build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -16,108 +16,126 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "gl2jni",
-			"buildCommand" : "/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake --build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a --target gl2jni",
+			"buildCommand" : "/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake --build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a --target gl2jni",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/gl_code.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/gl_code.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/GLES20Utils.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/GLES20Utils.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/RenderEngine.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RenderEngine.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DrawArrayRenderEngine.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DrawArrayRenderEngine.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DataArrayRenderEngine.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DataArrayRenderEngine.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/VBORenderEngine.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/VBORenderEngine.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/CubeRenderEngine.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CubeRenderEngine.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/BlurOnlyRender.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/BlurOnlyRender.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/FastGaussianBlurRender.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/FastGaussianBlurRender.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/TwoStepGaussianBlurRender.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/TwoStepGaussianBlurRender.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/DualFilterRender.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/DualFilterRender.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/GaussianBlurRender.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/GaussianBlurRender.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/BlurRenderEngine.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RoundBlurRender.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/RoundBlurRender2.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/CircleRender.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot  -Dgl2jni_EXPORTS -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/BlurRenderEngine.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				}
 			],
-			"output" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so",
+			"output" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so",
 			"toolchain" : "5952131717861037122"
 		},
 		"glm-Debug-arm64-v8a" : 
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "glm",
-			"buildCommand" : "/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake --build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a --target glm",
+			"buildCommand" : "/home/miaoshoufei/Tool/Sdk/cmake/3.6.4111459/bin/cmake --build /media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a --target glm",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot   -I/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/.. -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/cpp/glm/detail/glm.cpp",
-					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/miaoshoufei/Tool/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot   -I/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/.. -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/miaoshoufei/Tool/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/cpp/glm/detail/glm.cpp",
+					"workingDirectory" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				}
 			],
-			"output" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a/glm/libglm.a",
+			"output" : "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/.externalNativeBuild/cmake/debug/arm64-v8a/glm/libglm.a",
 			"toolchain" : "5952131717861037122"
 		}
 	},

@@ -20,6 +20,9 @@ add_library(gl2jni SHARED
             TwoStepGaussianBlurRender.cpp
             DualFilterRender.cpp
             GaussianBlurRender.cpp
+            RoundBlurRender.cpp
+            RoundBlurRender2.cpp
+            CircleRender.cpp
             BlurRenderEngine.cpp)
 
 # add lib dependencies

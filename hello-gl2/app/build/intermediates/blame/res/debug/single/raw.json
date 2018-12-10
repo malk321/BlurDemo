@@ -1,34 +1,42 @@
 [
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo7.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo7.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo1.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo1.jpg"
     },
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo3.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo3.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo10.png",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo10.png"
     },
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo2.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo2.jpg"
     },
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo5.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo5.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo7.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo7.jpg"
     },
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo8.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo8.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo.jpg"
     },
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo2.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo2.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo9.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo9.jpg"
     },
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo6.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo6.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo6.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo6.jpg"
     },
     {
-        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo1.jpg",
-        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/android-ndk/hello-gl2/app/src/main/res/raw/photo1.jpg"
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo5.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo5.jpg"
+    },
+    {
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo8.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo8.jpg"
+    },
+    {
+        "merged": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/build/intermediates/res/merged/debug/raw/photo3.jpg",
+        "source": "/media/malk/4714fe64-6855-444e-b183-4fae074c024c/malk/SourceCode/BlurDemo/hello-gl2/app/src/main/res/raw/photo3.jpg"
     }
 ]
